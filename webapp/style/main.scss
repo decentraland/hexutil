@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'colors';
+@import 'base';
+@import 'constants';
+@import 'components';
+
+.root {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+svg g.weak polygon {
+  fill: #c2c2c2;
+}
+
+svg g polygon:hover {
+  fill: #754a4a;
+  cursor: pointer;
+}
+
+svg g.weak polygon:hover {
+  fill: #afd8af;
+  cursor: pointer;
+}
